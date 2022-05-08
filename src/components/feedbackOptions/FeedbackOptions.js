@@ -9,7 +9,7 @@ function FeedbackOptions({options, onClick}) {
         <li key={option}><button
           name={option}
           type="button"
-          onClick={onClick(option)}
+          onClick={()=>onClick(option)}
           className={style.button}>{option}</button>
         </li>
       ))}
